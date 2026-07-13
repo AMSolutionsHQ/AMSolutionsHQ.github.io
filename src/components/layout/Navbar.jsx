@@ -39,9 +39,7 @@ function Navbar() {
           <div className="hidden lg:flex items-center gap-8">
             <NavLinks />
 
-            <Button>
-              Get a Quote
-            </Button>
+            
           </div>
 
 
@@ -66,9 +64,7 @@ function Navbar() {
 
             <NavLinks className="flex flex-col gap-6" />
 
-            <Button className="mt-6 w-full">
-              Get a Quote
-            </Button>
+            
 
           </div>
         )}
