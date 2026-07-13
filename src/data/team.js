@@ -7,7 +7,7 @@ export const team = [
     name: "Mohamed Taher",
     role: "COO | Software Engineer | Embedded & IoT Engineer",
     description:
-      "Experienced in software engineering, embedded systems, and IoT development, with a passion for building innovative and scalable technology solutions.",
+      "Driving operational excellence while developing innovative software, embedded systems, and IoT solutions that combine reliability, performance, and scalability.",
     image: mohamed,
     github: "https://github.com/Mohammed-Taher6705",
     linkedin: "https://www.linkedin.com/in/mohammed-taher-eng",
@@ -17,19 +17,19 @@ export const team = [
     name: "Ahmed ElShahed",
     role: "CEO | Software Engineer | Cloud Engineer",
     description:
-      "Leading NovaTech with a vision for innovation while delivering high-quality software solutions and driving business growth.",
+      "Leading NovaTech's strategic vision while designing modern software and cloud-based solutions that enable secure, scalable, and future-ready digital products.",
     image: ahmed,
     github: "https://github.com/Elshahedasu",
-    linkedin: "https://www.linkedin.com/in/ahmed-elshahed-0226172a9/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTfq53WZQThq7U5kKJNFO%2Fg%3D%3D",
+    linkedin: "https://www.linkedin.com/in/ahmed-elshahed-0226172a9/",
   },
 
   {
     name: "Mahmoud Hassan",
-    role: "CTO | Software Engineer | Ai & ML Engineer",
+    role: "CTO | Software Engineer | AI & ML Engineer",
     description:
-      "Specialized in software architecture and cloud technologies, focused on designing secure, scalable, and high-performance systems.",
+      "Leading the company's technical innovation by building intelligent AI-driven applications and designing scalable software architectures for next-generation solutions.",
     image: mahmoud,
     github: "https://github.com/mahsn12",
-    linkedin: "https://www.linkedin.com/in/mahmoud-hassan-a85647349/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8Tw9sus0Q0CiY1zZLB0nZw%3D%3D",
+    linkedin: "https://www.linkedin.com/in/mahmoud-hassan-a85647349/",
   },
 ];
