@@ -15,7 +15,7 @@ export const team = [
 
   {
     name: "Ahmed ElShahed",
-    role: "CEO | Software Engineer",
+    role: "CEO | Software Engineer | Cloud Engineer",
     description:
       "Leading NovaTech with a vision for innovation while delivering high-quality software solutions and driving business growth.",
     image: ahmed,
@@ -25,7 +25,7 @@ export const team = [
 
   {
     name: "Mahmoud Hassan",
-    role: "CTO | Software Engineer | Cloud Engineer",
+    role: "CTO | Software Engineer | Ai & ML Engineer",
     description:
       "Specialized in software architecture and cloud technologies, focused on designing secure, scalable, and high-performance systems.",
     image: mahmoud,
