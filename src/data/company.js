@@ -4,7 +4,7 @@ export const company = {
   description:
     "We design and develop modern web, mobile, AI, and cloud solutions for businesses worldwide.",
 
-  email: "contact@company.com",
+  email: "contact.amsolutions.co@gmail.com",
   phone: "+20 XXX XXX XXXX",
   location: "Cairo, Egypt",
 

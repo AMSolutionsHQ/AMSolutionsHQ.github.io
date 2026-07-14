@@ -9,7 +9,7 @@ export default defineConfig({
     tailwindcss(),
   ],
 
-  base: "/team-portfolio/",
+  base: "/",
 
   resolve: {
     alias: {

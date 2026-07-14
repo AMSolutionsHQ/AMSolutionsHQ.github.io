@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Mohammed-Taher6705.github.io/team-portfolio",
+  "homepage": "https://amsolutionshq.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
