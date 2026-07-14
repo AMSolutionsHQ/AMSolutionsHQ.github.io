@@ -1,4 +1,5 @@
 import sa7a7lyLogo from "@/assets/projects/sa7a7ly-logo.png";
+import meacLogo from "@/assets/projects/meac-logo.png";
 
 export const projects = [
   {
@@ -18,19 +19,20 @@ export const projects = [
   },
 
   {
-    title: "Smart E-Commerce Platform",
+    title: "MEAC Service Portal",
     description:
-      "A scalable e-commerce solution with modern UI, secure payments, and customer management.",
+      "A modern enterprise service portal developed to streamline service management and improve operational efficiency. Our team delivered the complete solution, including software development, deployment, and ongoing operational support.",
     technologies: [
       "React",
       "Node.js",
-      "Database",
+      "REST API",
+      "Cloud",
+      "DevOps",
     ],
-    category: "Web Development",
-    image: null,
-    url: "#",
+    category: "Enterprise Software",
+    image: meacLogo,
+    url: "https://meac-service-portal.vercel.app/login",
   },
-
   {
     title: "IoT Monitoring System",
     description:

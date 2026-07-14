@@ -9,7 +9,7 @@ export const company = {
   location: "Cairo, Egypt",
 
   social: {
-    github: "https://github.com/your-company",
+    github: "https://github.com/AMSolutionsHQ",
     linkedin: "https://linkedin.com/company/your-company",
     facebook: "https://facebook.com/your-company",
   },
