@@ -17,7 +17,7 @@ export const team = [
     name: "Ahmed ElShahed",
     role: "CEO | Software Engineer | Cloud Engineer",
     description:
-      "Leading NovaTech's strategic vision while designing modern software and cloud-based solutions that enable secure, scalable, and future-ready digital products.",
+      "Leading AM Solutions' strategic vision while designing modern software and cloud-based solutions that enable secure, scalable, and future-ready digital products.",
     image: ahmed,
     github: "https://github.com/Elshahedasu",
     linkedin: "https://www.linkedin.com/in/ahmed-elshahed-0226172a9/",

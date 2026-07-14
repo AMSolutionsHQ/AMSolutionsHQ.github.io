@@ -36,7 +36,7 @@ function Services() {
           </h2>
 
           <p className="mt-6 text-slate-400 text-lg">
-            NovaTech provides complete software solutions
+            AM Solutions provides complete software solutions
             from web applications to AI, cloud, and embedded systems.
           </p>
         </div>

@@ -1,15 +1,20 @@
+import sa7a7lyLogo from "@/assets/projects/sa7a7ly-logo.png";
+
 export const projects = [
   {
-    title: "AI Analytics Platform",
+    title: "Sa7a7ly",
     description:
-      "An intelligent analytics platform using AI models to transform business data into actionable insights.",
+      "An AI-powered educational platform that helps students solve, understand, and practice academic questions using intelligent technologies.",
     technologies: [
       "React",
+      "Node.js",
+      "AI",
       "Python",
-      "Machine Learning",
-      "Cloud",
+      "MongoDB",
     ],
-    category: "Artificial Intelligence",
+    category: "AI Education",
+    image: sa7a7lyLogo,
+    url: "https://www.sa7a7ly.online/", // Replace with your actual website
   },
 
   {
@@ -22,6 +27,8 @@ export const projects = [
       "Database",
     ],
     category: "Web Development",
+    image: null,
+    url: "#",
   },
 
   {
@@ -34,5 +41,7 @@ export const projects = [
       "Cloud",
     ],
     category: "Embedded Systems",
+    image: null,
+    url: "#",
   },
 ];

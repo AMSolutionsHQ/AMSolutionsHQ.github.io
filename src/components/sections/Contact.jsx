@@ -23,7 +23,7 @@ function Contact() {
             </h2>
 
             <p className="mt-6 text-slate-400 text-lg">
-              Have a project idea? Contact NovaTech and
+              Have a project idea? Contact AM Solutions and
               let's discuss how we can turn your idea into
               a powerful digital solution.
             </p>

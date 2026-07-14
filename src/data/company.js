@@ -1,11 +1,12 @@
 export const company = {
-  name: "NovaTech",
+  name: "AM Solutions",
   slogan: "Building Innovative Software Solutions",
   description:
     "We design and develop modern web, mobile, AI, and cloud solutions for businesses worldwide.",
 
   email: "contact@company.com",
   phone: "+20 XXX XXX XXXX",
+  location: "Cairo, Egypt",
 
   social: {
     github: "https://github.com/your-company",

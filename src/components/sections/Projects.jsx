@@ -31,9 +31,12 @@ function Projects() {
 
           {projects.map((project) => (
 
-            <div
-              key={project.title}
-              className="
+            <a
+            key={project.title}
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
                 group
                 rounded-2xl
                 border
@@ -44,26 +47,35 @@ function Projects() {
                 duration-300
                 hover:-translate-y-2
                 hover:border-blue-500/40
-              "
+                block
+            "
             >
 
               {/* Image Placeholder */}
-              <div
+             <div
                 className="
-                  h-48
-                  bg-gradient-to-br
-                  from-blue-600/30
-                  to-cyan-500/10
-                  flex
-                  items-center
-                  justify-center
+                    h-48
+                    bg-gradient-to-br
+                    from-blue-600/20
+                    to-cyan-500/10
+                    flex
+                    items-center
+                    justify-center
+                    p-8
                 "
-              >
-                <span className="text-slate-300">
-                  Project Preview
-                </span>
-              </div>
-
+                >
+                {project.image ? (
+                    <img
+                    src={project.image}
+                    alt={project.title}
+                    className="max-h-28 object-contain transition-transform duration-300 group-hover:scale-110"
+                    />
+                ) : (
+                    <span className="text-slate-300">
+                    Project Preview
+                    </span>
+                )}
+                </div>
 
               <div className="p-8">
 
@@ -124,7 +136,7 @@ function Projects() {
 
               </div>
 
-            </div>
+            </a>
 
           ))}
 

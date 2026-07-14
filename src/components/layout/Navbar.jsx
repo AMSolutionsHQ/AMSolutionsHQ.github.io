@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
-import Logo from "./Logo";
 import NavLinks from "./NavLinks";
 import { Button } from "@/components/ui/button";
 
@@ -33,7 +33,28 @@ function Navbar() {
         <div className="flex h-20 items-center justify-between">
 
           {/* Logo */}
-          <Logo />
+         {/* Logo */}
+<a
+  href="#home"
+  className="flex items-center gap-3 shrink-0"
+>
+  <img
+    src={logo}
+    alt="AM Solutions Logo"
+    className="h-12 w-12 object-contain"
+  />
+
+  <div className="leading-tight">
+    <h1 className="text-sm text-slate-400">
+      AM Software Solutions
+
+    </h1>
+
+    {/* <p className="text-sm text-slate-400">
+      Software Solutions
+    </p> */}
+  </div>
+</a>
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center gap-8">

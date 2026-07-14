@@ -17,7 +17,7 @@ function Team() {
           </span>
 
           <h2 className="mt-4 text-4xl lg:text-5xl font-bold">
-            Meet the engineers behind NovaTech
+            Meet the engineers behind AM Solutions
           </h2>
 
           <p className="mt-6 text-slate-400 text-lg">
