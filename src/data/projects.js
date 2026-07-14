@@ -1,5 +1,6 @@
 import sa7a7lyLogo from "@/assets/projects/sa7a7ly-logo.png";
 import meacLogo from "@/assets/projects/meac-logo.png";
+import tawassLogo from "@/assets/projects/tawass-logo.png";
 
 export const projects = [
   {
@@ -15,7 +16,7 @@ export const projects = [
     ],
     category: "AI Education",
     image: sa7a7lyLogo,
-    url: "https://www.sa7a7ly.online/", // Replace with your actual website
+    url: "https://www.sa7a7ly.online/",
   },
 
   {
@@ -33,17 +34,24 @@ export const projects = [
     image: meacLogo,
     url: "https://meac-service-portal.vercel.app/login",
   },
-  {
-    title: "IoT Monitoring System",
+ {
+    title: "Tawass+",
     description:
-      "A connected IoT solution combining embedded devices, sensors, and cloud monitoring.",
+      "An AI-powered career and recruitment platform that connects job seekers with opportunities through intelligent profile matching. Users can interact with an AI chatbot powered by Retrieval-Augmented Generation (RAG) for Tawass-related information, conduct AI video interviews, build a dynamic CV profile, and receive real-time notifications when new opportunities match their skills and experience.",
     technologies: [
-      "Embedded C",
-      "IoT",
-      "Cloud",
+      "React",
+      "Node.js",
+      "Python",
+      "AI",
+      "RAG",
+      "LLMs",
+      "Video Calling",
+      "MongoDB",
     ],
-    category: "Embedded Systems",
-    image: null,
-    url: "#",
+    category: "Artificial Intelligence",
+    image: tawassLogo,
+    url: "",
+    disabled: true,
+
   },
 ];

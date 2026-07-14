@@ -20,40 +20,20 @@ function Projects() {
           </h2>
 
           <p className="mt-6 text-slate-400 text-lg">
-            Explore examples of software solutions
-            covering AI, web platforms, and connected systems.
+            Explore examples of software solutions covering AI, web platforms,
+            and connected systems.
           </p>
         </div>
-
 
         {/* Projects Grid */}
         <div className="mt-16 grid lg:grid-cols-3 gap-8">
 
-          {projects.map((project) => (
-
-            <a
-            key={project.title}
-            href={project.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="
-                group
-                rounded-2xl
-                border
-                border-white/10
-                bg-white/5
-                overflow-hidden
-                transition-all
-                duration-300
-                hover:-translate-y-2
-                hover:border-blue-500/40
-                block
-            "
-            >
-
-              {/* Image Placeholder */}
-             <div
-                className="
+          {projects.map((project) => {
+            const Card = (
+              <>
+                {/* Project Image */}
+                <div
+                  className="
                     h-48
                     bg-gradient-to-br
                     from-blue-600/20
@@ -62,83 +42,119 @@ function Projects() {
                     items-center
                     justify-center
                     p-8
-                "
+                  "
                 >
-                {project.image ? (
+                  {project.image ? (
                     <img
-                    src={project.image}
-                    alt={project.title}
-                    className="max-h-28 object-contain transition-transform duration-300 group-hover:scale-110"
+                      src={project.image}
+                      alt={project.title}
+                      className="max-h-28 object-contain transition-transform duration-300 group-hover:scale-110"
                     />
-                ) : (
+                  ) : (
                     <span className="text-slate-300">
-                    Project Preview
+                      Project Preview
                     </span>
-                )}
+                  )}
                 </div>
 
-              <div className="p-8">
+                <div className="p-8">
 
-                <div className="flex justify-between items-start">
+                  {project.disabled && (
+                    <span className="inline-block mb-4 rounded-full bg-yellow-500/20 px-3 py-1 text-sm font-medium text-yellow-400">
+                      🚧 Coming Soon
+                    </span>
+                  )}
 
-                  <span
-                    className="
-                    text-sm
-                    text-blue-400
-                    font-medium
-                    "
-                  >
-                    {project.category}
-                  </span>
+                  <div className="flex justify-between items-start">
 
-                  <ArrowUpRight
-                    className="
-                    text-slate-400
-                    group-hover:text-white
-                    transition
-                    "
-                  />
-
-                </div>
-
-
-                <h3 className="mt-4 text-2xl font-semibold">
-                  {project.title}
-                </h3>
-
-
-                <p className="mt-4 text-slate-400 leading-relaxed">
-                  {project.description}
-                </p>
-
-
-                <div className="mt-6 flex flex-wrap gap-2">
-
-                  {project.technologies.map((tech) => (
-
-                    <span
-                      key={tech}
-                      className="
-                      px-3
-                      py-1
-                      rounded-full
-                      text-sm
-                      bg-white/10
-                      text-slate-300
-                      "
-                    >
-                      {tech}
+                    <span className="text-sm text-blue-400 font-medium">
+                      {project.category}
                     </span>
 
-                  ))}
+                    {!project.disabled && (
+                      <ArrowUpRight
+                        className="
+                          text-slate-400
+                          group-hover:text-white
+                          transition
+                        "
+                      />
+                    )}
+
+                  </div>
+
+                  <h3 className="mt-4 text-2xl font-semibold">
+                    {project.title}
+                  </h3>
+
+                  <p className="mt-4 text-slate-400 leading-relaxed">
+                    {project.description}
+                  </p>
+
+                  <div className="mt-6 flex flex-wrap gap-2">
+
+                    {project.technologies.map((tech) => (
+                      <span
+                        key={tech}
+                        className="
+                          px-3
+                          py-1
+                          rounded-full
+                          text-sm
+                          bg-white/10
+                          text-slate-300
+                        "
+                      >
+                        {tech}
+                      </span>
+                    ))}
+
+                  </div>
 
                 </div>
+              </>
+            );
 
+            return project.disabled ? (
+              <div
+                key={project.title}
+                className="
+                  group
+                  rounded-2xl
+                  border
+                  border-white/10
+                  bg-white/5
+                  overflow-hidden
+                  opacity-70
+                  cursor-not-allowed
+                "
+              >
+                {Card}
               </div>
-
-            </a>
-
-          ))}
+            ) : (
+              <a
+                key={project.title}
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+                  group
+                  rounded-2xl
+                  border
+                  border-white/10
+                  bg-white/5
+                  overflow-hidden
+                  transition-all
+                  duration-300
+                  hover:-translate-y-2
+                  hover:border-blue-500/40
+                  block
+                "
+              >
+                {Card}
+              </a>
+            );
+          })}
 
         </div>
 

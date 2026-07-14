@@ -41,7 +41,7 @@ function Navbar() {
   <img
     src={logo}
     alt="AM Solutions Logo"
-    className="h-12 w-12 object-contain"
+    className="h-24 w-24 object-contain"
   />
 
   <div className="leading-tight">
