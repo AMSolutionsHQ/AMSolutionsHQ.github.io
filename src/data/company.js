@@ -10,7 +10,7 @@ export const company = {
 
   social: {
     github: "https://github.com/AMSolutionsHQ",
-    linkedin: "https://www.linkedin.com/in/am-solutions-7a2509422/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsmRPfRNZQyeXG1FB%2BbpTkg%3D%3D",
+    linkedin: "linkedin.com/company/am-solutions-software",
     facebook: "https://facebook.com/your-company",
   },
 };
