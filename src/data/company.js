@@ -5,7 +5,7 @@ export const company = {
     "We design and develop modern web, mobile, AI, and cloud solutions for businesses worldwide.",
 
   email: "contact.amsolutions.co@gmail.com",
-  phone: "+20 1011576523",
+  phone: "+20 1042261734",
   location: "Cairo, Egypt",
 
   social: {
