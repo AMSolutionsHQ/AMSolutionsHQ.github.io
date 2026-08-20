@@ -50,24 +50,6 @@ export const projects = [
     url: "",
     disabled: true,
   },
-  {
-    title: "Saudi Arabia Sales & Distribution ERP",
-    description:
-      "An ERP and distribution management system in progress for Saudi Arabia, designed to manage field sales, routes, customer visits, GPS tracking, inventory, orders, invoicing, collections, and performance analytics across the sales team.",
-    technologies: [
-      "ERP",
-      "Field Sales",
-      "Route Management",
-      "GPS Tracking",
-      "Inventory",
-      "Accounting",
-      "Analytics",
-    ],
-    category: "ERP & Distribution",
-    image:null,
-    url: "",
-    disabled: true,
-  },
  {
     title: "Tawass+",
     description:
