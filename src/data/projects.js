@@ -34,6 +34,40 @@ export const projects = [
     image: meacLogo,
     url: "https://meac-service-portal.vercel.app/login",
   },
+  {
+    title: "MEAC Power BI Live Data Tracking",
+    description:
+      "A desktop application for live data tracking and business reporting, with the ability to export reports and insights as PDF and Excel files.",
+    technologies: [
+      "Desktop App",
+      "Power BI",
+      "Live Data",
+      "PDF Export",
+      "Excel Export",
+    ],
+    category: "Business Intelligence",
+    image: meacLogo,
+    url: "",
+    disabled: true,
+  },
+  {
+    title: "Saudi Arabia Sales & Distribution ERP",
+    description:
+      "An ERP and distribution management system in progress for Saudi Arabia, designed to manage field sales, routes, customer visits, GPS tracking, inventory, orders, invoicing, collections, and performance analytics across the sales team.",
+    technologies: [
+      "ERP",
+      "Field Sales",
+      "Route Management",
+      "GPS Tracking",
+      "Inventory",
+      "Accounting",
+      "Analytics",
+    ],
+    category: "ERP & Distribution",
+    image:null,
+    url: "",
+    disabled: true,
+  },
  {
     title: "Tawass+",
     description:
