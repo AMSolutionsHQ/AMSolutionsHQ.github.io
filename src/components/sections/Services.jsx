@@ -1,14 +1,20 @@
 import { services } from "@/data/services";
 import {
+  BarChart3,
+  Building2,
+  Code,
+  GitBranch,
   Globe,
   Smartphone,
   Brain,
   Cloud,
   Cpu,
-  Code,
 } from "lucide-react";
 
 const icons = {
+  BarChart3,
+  Building2,
+  GitBranch,
   Globe,
   Smartphone,
   Brain,

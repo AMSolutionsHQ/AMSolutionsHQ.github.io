@@ -1,38 +1,44 @@
 export const services = [
   {
-    title: "Web Development",
+    title: "ERP, CRM & HCM Solutions",
     description:
-      "Modern and scalable web applications built with reliable technologies and excellent user experiences.",
-    icon: "Globe",
+      "Business management platforms that connect people, processes, customers, and operations in one place.",
+    icon: "Building2",
   },
   {
-    title: "Mobile App Development",
+    title: "AI & Business Automation",
     description:
-      "High-performance mobile applications for Android and iOS with intuitive designs.",
-    icon: "Smartphone",
-  },
-  {
-    title: "AI & Machine Learning",
-    description:
-      "Intelligent solutions using artificial intelligence, automation, and data-driven systems.",
+      "Intelligent solutions that automate repetitive work, improve decisions, and help teams operate more efficiently.",
     icon: "Brain",
   },
   {
-    title: "Cloud Solutions",
+    title: "IT & Cloud Services",
     description:
-      "Secure and scalable cloud architectures that help businesses grow efficiently.",
+      "Secure, scalable infrastructure and technology services that support reliable business growth.",
     icon: "Cloud",
   },
   {
-    title: "Embedded Systems & IoT",
+    title: "Custom Software Solutions",
     description:
-      "Hardware and software solutions connecting smart devices with powerful embedded technologies.",
-    icon: "Cpu",
+      "Purpose-built software designed around your organization’s unique workflows, needs, and goals.",
+    icon: "Code",
   },
   {
-    title: "Custom Software Development",
+    title: "Web, Mobile & Desktop Applications",
     description:
-      "Tailored software solutions designed around your business needs and goals.",
-    icon: "Code",
+      "Modern applications that deliver consistent, intuitive experiences across web, mobile, and desktop platforms.",
+    icon: "Globe",
+  },
+  {
+    title: "System Integration & APIs",
+    description:
+      "Connected systems and reliable APIs that enable smooth data exchange across your technology ecosystem.",
+    icon: "GitBranch",
+  },
+  {
+    title: "Data & Business Intelligence",
+    description:
+      "Clear, actionable insights from your data through reporting, analytics, and business intelligence solutions.",
+    icon: "BarChart3",
   },
 ];
